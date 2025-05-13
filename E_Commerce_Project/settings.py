@@ -54,6 +54,8 @@ MIDDLEWARE = [
  
 ]
 
+CSRF_TRUSTED_ORIGINS = ["https://8000-firebase-ecommerceapplication-1747043144428.cluster-axf5tvtfjjfekvhwxwkkkzsk2y.cloudworkstations.dev",]
+
 ROOT_URLCONF = 'E_Commerce_Project.urls'
 
 TEMPLATES = [
